@@ -327,6 +327,9 @@ iframe{
 			.imagen-lenguajes-produc img{
 				margin-top: 50px;
 			}
+			.imagen-lenguajes img{
+				margin-top: 50px;
+			}
         }
         @media screen and (min-width: 412px){
             .our-team{
@@ -387,7 +390,10 @@ iframe{
 			}
 			.iconos{
 				width: 500px;
-			}        	
+			}  
+			.imagen-lenguajes img{
+				margin-top: 50px;
+			}      	
         }
 		@media screen and (min-width: 320px){
 			.form-group{
