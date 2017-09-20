@@ -26,18 +26,103 @@ hr{
 	font-size: 25px;
 	background: white;
 }
-.texto-des p{
+.texto-des-empresa p{
+	margin-top: 100px;
+	font-size: 30px;
+	color: #27B8D7;
+	text-align: center;
+}
+.texto-des-empresa {
+	background-color: white;
+}
+.texto-des-empresa h1{
+	color: #27B8D7;
+}
+.texto-des-empresa{
+	background: white;
+
+}
+.texto-des-empresa hr{
+	background-color:  #27B8D7;
+}
+.texto-des-lenguajes{
+	background-color: #27B8D7;
+}
+.texto-des-lenguajes h1{
+	color: white;
+}
+.texto-des-lenguajes p{
 	margin-top: 100px;
 	font-size: 30px;
 	color: white;
 	text-align: center;
 }
-.texto-des h1{
+.texto-des-imageneslengua{
+	background-color:#27B8D7; 
+}
+.texto-des-productos h1{
+	color: #27B8D7; 
+}
+.texto-des-productos p{
+	margin-top: 100px;
+	font-size: 30px;
+	color: #27B8D7; 
+	text-align: center;	
+}
+.imagen-lenguajes-produc:hover{
+	border-color: #27B8D7; 
+	border-radius: 8px;
+}
+.texto-des-equipo{
+	background-color:#27B8D7; 
+	color: white;
+
+}
+.texto-des-equipo p{
+	margin-top: 100px;
+	font-size: 30px;
+	color: white; 
+	text-align: center;	
+}
+.team{
+	background-color: white !important;
+}
+.texto-des-contacto{
+	background-color:#27B8D7;  
+}
+.texto-des-contacto h1{
 	color: white;
 }
-.texto-des{
-	background: #27B8D7;
-
+.texto-des-contacto p{
+	margin-top: 100px;
+	font-size: 30px;
+	color: white; 
+	text-align: center;		
+}
+.texto-logo h1{
+	font-size: 35px !important;
+}
+.texto-logo{
+	width: 100%;
+}
+.texto-sea{
+	width: 500px !important;
+}
+.texto-seas{
+	width: 100px !important;
+}
+.texto-des-mapa{
+	background-color: #27B8D7;
+}
+.texto-des-mapa h1{
+	color: white;
+}
+.texto-des-banner{
+	background-color: #27B8D7;
+	color: white;
+}
+.texto-des-iconosos{
+	background-color: #27B8D7;
 }
 .imagen-lenguajes{
 	text-align: center;
@@ -239,6 +324,9 @@ iframe{
 			.texto-seas{
 				width: 20%;
 			}
+			.imagen-lenguajes-produc img{
+				margin-top: 50px;
+			}
         }
         @media screen and (min-width: 412px){
             .our-team{
@@ -329,7 +417,8 @@ iframe{
 			}
 			.iconos{
 				width: 500px;
-			}        	
+			}
+      	
 		}
  		@media screen and (min-width: 414px){
 			.form-group{
